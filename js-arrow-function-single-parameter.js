@@ -1,4 +1,4 @@
-// Traditional function
+// Traditional anonymous function
 function (a) {
   return a + 100;
 }
