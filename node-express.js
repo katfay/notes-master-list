@@ -42,6 +42,7 @@ var app = express();
 // We will be using 3000 as the port. This declares the port
 var port = 3000;
 app.get("/", (req, res) => {
+  // This "Hello World" is what will be sent to the homepage "/". This string will appear in the body of the frontend.
   res.send("Hello World!");
 });
 
