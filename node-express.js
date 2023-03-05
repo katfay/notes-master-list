@@ -34,7 +34,7 @@ app.listen(3000, () => {
 });
 
 // EXAMPLE LISTEN REQUEST 2
-// This function uses 3000 as our port and verifies the port is active if we see the console.log message
+// This function starts a server and listens on port 3000 for connections
 // Import the express module
 var express = require("express");
 // app is the object of the express server
