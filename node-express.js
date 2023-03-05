@@ -1,8 +1,8 @@
 // NOTES
 
 // Express functions -
-// req = request object
-// res = response object
+// req = request object (fetches all the data required to execute the middleway function)
+// res = response object (responds back with the data we want to show in the frontend)
 // next = variable name for next middleware function after this function completes
 // app.use = function to bind the middleware to an instace of the app object
 // app.method = function to bind the middleware to an instace of the app object
@@ -25,8 +25,30 @@
 
 // EXAMPLE LISTEN REQUEST
 // This function uses 3000 as our port and verifies the port is active if we see the console.log message
+// Import the express module
 var express = require("express");
+// app is the object of the express server
 var app = express();
+app.listen(3000, () => {
+  console.log("Server started on port 3000");
+});
+
+// EXAMPLE LISTEN REQUEST 2
+// This function uses 3000 as our port and verifies the port is active if we see the console.log message
+// Import the express module
+var express = require("express");
+// app is the object of the express server
+var app = express();
+// We will be using 3000 as the port. This declares the port
+var port = 3000;
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+
+app.listen(port, () => {
+  console.log("Example app listening on port ${port}");
+});
+
 app.listen(3000, () => {
   console.log("Server started on port 3000");
 });
