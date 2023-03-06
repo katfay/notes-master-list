@@ -2,6 +2,7 @@
 
 // Express functions -
 // req = request object (fetches all the data required to execute the middleway function)
+// //When we say 'request' it means 'requests to the path' which means an endpoint e.g. url e.g. localhost:3000. Putting this in the browswer is considered a request, which will return a response using the express functions below
 // res = response object (responds back with the data we want to show in the frontend)
 // next = variable name for next middleware function after this function completes
 // app.use = function to bind the middleware to an instace of the app object
