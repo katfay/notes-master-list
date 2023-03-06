@@ -54,7 +54,7 @@ app.get("/endpoint", (req, res) => {
 
 // And then an app.listen is needed to keep checking if the server is connected or not
 // This example listens on port 3000
-app.listen(3000, () => console.log("Server started");
+app.listen(3000, () => console.log("Server started"));
 
 // Note this example also had the following controller requirements/functions:
 
