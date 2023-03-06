@@ -51,3 +51,16 @@
 // Copy code
 // Enter code snippet into db.js file (into mongoose.connect function)
 // Update code snippet password section with this database/cluster's unique password
+
+// // Set up expense.model.js file
+
+// Create a new file in the models folder
+// Name the file expense.model.js
+// Put the code in to handle our objects - see example in 'db-expense.model.js' file
+
+// // Set up expense.controller
+
+// Create a new folder in the root
+// Call this folder "controller"
+// Create a new file in this folder
+// Call this file expenseController.js
