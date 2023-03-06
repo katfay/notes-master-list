@@ -64,3 +64,4 @@
 // Call this folder "controller"
 // Create a new file in this folder
 // Call this file expenseController.js
+// Insert the code from e.g. the db-expenseController.js notes
