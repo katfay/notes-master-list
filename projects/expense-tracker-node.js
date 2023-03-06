@@ -6,6 +6,19 @@
 
 // //Create frontend shell (basic)
 
+// Needs a fetch API call
+// Example of this is: (see working version in expense-tracker-test)
+
+// function retrieveExpenses() {
+//   // Fetch the file containing the user's responses to the 'Add an expense' form. This is first retrieved from the cloud database and then hosted on a local server as an API, using a middleware function.
+//   fetch("http://localhost:5000/expense/list")
+//     // Convert the fetched response to a JSON format.
+//     .then((res) => res.json())
+//     // Print this JSON object on my console
+//     .then((data) => {
+//       console.log(data));
+//     }
+
 // // Create node initial environment ("backend env for our frontend")
 
 // New workspace (folder)
