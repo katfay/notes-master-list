@@ -36,12 +36,21 @@
 // In the index.js file, require express (assign as a const)
 // Assign app as a constant for express() [ const app = express() ]
 // Write a get request to handle reqeusts to the homepage ("/") i.e. show specified text on the homepage when "/" is accessed - see express notes
+// Note this get request is the middleware function where we can add in API endpoints
 // Write a listener request to listen for connections to the server - see express notes
 // Test that the local server has been created and is listening
 // Open the terminal and run npm start. If nodemon doesn't show errors, server should be listening
 // Check further by opening broswer, typing in localhost:<portnumber>
 // This is the port number you used in the express listen request
 // You should see in the body of the browser page, the contents of the index.js file express get request e.g. "Hello World" or whatever text/html you have included.
+
+// // Add the other express functions that enable us to properly retrieve, send, update and show the requested data
+// body-parser
+// cors
+// body-parser module/package changes response objects to JSON format
+// cors allows us to acces APIs from external resources
+// Require these modules and assign them as constants
+// Use them in the express app. function - see example in express.js notes
 
 // // Create db.js file (see node-mongoose.js notes)
 // Create 'models' folder in root
