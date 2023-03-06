@@ -49,3 +49,5 @@
 // When collection is created, go to DB and 'connect'
 // Connect application
 // Copy code
+// Enter code snippet into db.js file (into mongoose.connect function)
+// Update code snippet password section with this database/cluster's unique password
